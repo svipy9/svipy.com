@@ -1,3 +1,71 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'http://www.svipy.com/'
+title = "Pavel Sviridov"
+theme = "hugo-coder"
+languagecode = "en-us"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+# disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Pavel Sviridov"
+  info = "Awesome Backend Developer and Team Leader"
+  description = "Pavel Sviridov's personal website"
+  keywords = "blog,developer,personal"
+  # avatarurl = "images/avatar.jpg"
+  gravatar = "p.y.sviridov@gmail.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Telegram"
+  icon = "fa fa-telegram fa-2x"
+  weight = 1
+  url = "https://t.me/svipy/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://linkedin.com/in/svipy/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/sviridov_pavel/"
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 4
+  url = "https://github.com/svipy9/"
+
+
+# Menu links
+# [[menu.main]]
+#  name = "Blog"
+#  weight = 1
+#  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
