@@ -1,6 +1,6 @@
 baseURL = 'https://svipy.com/'
 title = "Pavel Sviridov"
-theme = "ananke"
+# theme = "ananke"
 languagecode = "en-us"
 defaultcontentlanguage = "en"
 
@@ -17,20 +17,7 @@ style = "github-dark"
   info = "Awesome Backend Developer and Team Leader"
   description = "Pavel Sviridov's personal website"
   keywords = "blog,developer,personal"
-  # avatarurl = "images/avatar.jpg"
-  gravatar = "p.y.sviridov@gmail.com"
-
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
-
   since = 2023
-
-  enableTwemoji = true
-
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
-
 
 [taxonomies]
   category = "categories"
@@ -41,23 +28,15 @@ style = "github-dark"
 # Social links
 [[params.social]]
   name = "Telegram"
-  icon = "fa fa-telegram fa-2x"
-  weight = 1
   url = "https://t.me/svipy/"
 [[params.social]]
   name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
-  weight = 2
   url = "https://linkedin.com/in/svipy/"
 [[params.social]]
   name = "Medium"
-  icon = "fa fa-medium fa-2x"
-  weight = 3
   url = "https://medium.com/@sviridov.py"
 [[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 4
+  name = "GitHub"
   url = "https://github.com/svipy9/"
 
 
