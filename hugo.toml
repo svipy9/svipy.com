@@ -1,4 +1,4 @@
-baseURL = 'http://www.svipy.com/'
+baseURL = 'https://svipy.com/'
 title = "Pavel Sviridov"
 theme = "hugo-coder"
 languagecode = "en-us"
