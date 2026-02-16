@@ -6,6 +6,6 @@ draft: false
 
 # About Pavel
 
-CTO at TripleTen, an EdTech startup in Berlin. I build scalable systems and lead technical teams with 9+ years of backend development experience.
+CTO at TripleTen, a successful EdTech company part of Nebius Group. Based in Berlin, I build scalable systems and lead technical teams with 9+ years of backend development experience.
 
-Currently focusing on system architecture, team leadership, and preparing for the next career step in BigTech.
+Currently focusing on system architecture and team leadership.
