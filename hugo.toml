@@ -1,23 +1,44 @@
 baseURL = 'https://svipy.com/'
 title = "Pavel Sviridov"
-# theme = "ananke"
+theme = "PaperMod"
 languagecode = "en-us"
 defaultcontentlanguage = "en"
 
 [pagination]
 pagerSize = 20
 
-# disqusShortname = "yourdiscussshortname"
-
 [markup.highlight]
 style = "github-dark"
 
 [params]
   author = "Pavel Sviridov"
-  info = "Awesome Backend Developer and Team Leader"
-  description = "Pavel Sviridov's personal website"
-  keywords = "blog,developer,personal"
-  since = 2023
+  description = "CTO at TripleTen, Berlin"
+  keywords = ["backend", "python", "golang", "team-leader", "edtech"]
+  
+  # Profile section
+  [params.profileMode]
+    enabled = true
+    title = "Pavel Sviridov"
+    subtitle = "CTO at TripleTen"
+    imageUrl = "https://www.gravatar.com/avatar/e890a97035f61d0fd98a1e679e59caa0?s=400"
+    imageTitle = "Pavel Sviridov"
+  
+  # PaperMod specific
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
 
 [taxonomies]
   category = "categories"
@@ -25,27 +46,18 @@ style = "github-dark"
   tag = "tags"
   author = "authors"
 
-# Social links
-[[params.social]]
-  name = "Telegram"
+# Social links for PaperMod
+[[params.socialIcons]]
+  name = "telegram"
   url = "https://t.me/svipy/"
-[[params.social]]
-  name = "LinkedIn"
+[[params.socialIcons]]
+  name = "linkedin"
   url = "https://linkedin.com/in/svipy/"
-[[params.social]]
-  name = "Medium"
+[[params.socialIcons]]
+  name = "medium"  
   url = "https://medium.com/@sviridov.py"
-[[params.social]]
-  name = "GitHub"
+[[params.socialIcons]]
+  name = "github"
   url = "https://github.com/svipy9/"
 
-
-# Menu links
-# [[menu.main]]
-#  name = "Blog"
-#  weight = 1
-#  url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+# Menu links (none)
