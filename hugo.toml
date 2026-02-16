@@ -1,10 +1,11 @@
 baseURL = 'https://svipy.com/'
 title = "Pavel Sviridov"
-theme = "hugo-coder"
+theme = "ananke"
 languagecode = "en-us"
 defaultcontentlanguage = "en"
 
-paginate = 20
+[pagination]
+pagerSize = 20
 
 # disqusShortname = "yourdiscussshortname"
 
