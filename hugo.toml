@@ -60,4 +60,9 @@ style = "github-dark"
   name = "github"
   url = "https://github.com/svipy9/"
 
-# Menu links (none)
+# Menu links
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 1
